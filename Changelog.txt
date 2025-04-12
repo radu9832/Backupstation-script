@@ -1,0 +1,13 @@
+04.03.2025 – V1.6  
+Fixed a bug where the full directory wasn't being created correctly
+
+28.02.2025  
+Added call to the local backup manager script after all transfers complete
+
+13.02.2025  
+Added remote control method via external config flag
+
+22.11.2024  
+- Added extra filters when copying MyProject to avoid uploading non-essential files to the server  
+- Enabled local backup of the Test_Images folder  
+- Added local backup for both MyProject and the config directory
