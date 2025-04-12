@@ -1,0 +1,13 @@
+# Ignore system & backup files
+*.log
+*.bak
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore PowerShell editor temp files
+*.ps1~
+
+# Ignore editor/project folders
+.vscode/
