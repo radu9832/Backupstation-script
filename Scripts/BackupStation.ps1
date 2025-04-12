@@ -62,7 +62,7 @@ function Run-BackupStation {
     # --- Configuration and Paths ---
     $stationName                = "TestStation"
     $localScriptDir            = "C:\TestApp\AutomationScripts\\backupScriptsLog"
-    $standardConfigDir         = "C:\\"
+    $standardConfigDir         = "C:\"
     $standardProjectDir        = "C:\TestApp"
     $customConfigDir           = "Configurator"
     $customProjectDir          = "MyProject"
