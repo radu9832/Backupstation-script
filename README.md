@@ -19,7 +19,7 @@ This is a PowerShell script I wrote to automate backing up test station files �
 
 ```text
 ├── C:    
-├── clips\                        # Config files live here
+├── Configurator                  # Config files live here
 └── TestApp 
         ├── MyProject\            # Project folder to back up
         └── AutomationScripts\
