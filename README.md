@@ -4,7 +4,7 @@ This is a PowerShell script I wrote to automate backing up test station files �
 
 ---
 
-## 🔧 What it Does
+##  What it Does
 
 - Checks a shared `.ini` file for a global on/off flag (`scriptStatus`)
 - Copies relevant project/config folders from the local machine to a structured backup location
@@ -15,7 +15,7 @@ This is a PowerShell script I wrote to automate backing up test station files �
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```text
 ├── C:    
@@ -28,7 +28,7 @@ This is a PowerShell script I wrote to automate backing up test station files �
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 This script pulls a global value from a shared `.ini` file:
 
@@ -43,7 +43,7 @@ Each test station is set up differently. They might use different names, folders
 
 ---
 
-## 🚀 How to Run It
+##  How to Run It
 
 1. Drop the script on the machine and make sure the folders match
 2. Make sure `BackupStation.ini` is reachable from the network
@@ -52,7 +52,7 @@ Each test station is set up differently. They might use different names, folders
 
 ---
 
-## 🔧 Functions in the Script
+##  Functions in the Script
 
 - `Load-ConfigVariables`: Gets global flags from the `.ini`
 - `Copy-ConfigFiles`: Copies config folders to local and network backup
@@ -62,7 +62,7 @@ Each test station is set up differently. They might use different names, folders
 
 ---
 
-## 🛠️ Improvements I Plan to Make
+##  Improvements I Plan to Make
 
 - Add `try/catch` blocks so errors don’t go silent
 - Add a dry-run mode to preview actions before copying
@@ -71,7 +71,7 @@ Each test station is set up differently. They might use different names, folders
 
 ---
 
-## 👋 Who Made This
+##  Who Made This
 
 **Radu Jorda**  
 DevOps-Focused Automation Engineer (in progress, but getting there)
@@ -79,7 +79,7 @@ DevOps-Focused Automation Engineer (in progress, but getting there)
 
 ---
 
-## ⏰ Automation via Task Scheduler
+##  Automation via Task Scheduler
 
 This script is scheduled to run automatically using Windows Task Scheduler.
 
@@ -97,7 +97,7 @@ This setup ensures each test station runs the backup script without any user int
 
 ---
 
-## 🧩 Additional Cleanup Scripts
+##  Additional Cleanup Scripts
 
 These are two short helper scripts I wrote for keeping things clean after the backups are done.
 
