@@ -1,0 +1,15 @@
+name: BackupStation Tests
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: windows-latest
+
+    steps:
+      - name: Check PowerShell
+        shell: powershell
+        run: |
+          Write-Output "BackupStation test environment is working!"
+          $PSVersionTable.PSVersion
